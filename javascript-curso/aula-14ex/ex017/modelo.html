@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Exercicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Hora do dia</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui vai aparecer o resultado
+        <div id="dados">
+            <label>Número:</label>
+            <input type="number" name="txti" id="txti">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()">
         </div>
-        <div id="foto">
-            <img src="assets/manha.png" alt="Foto do dia">
-        </div>
+        <select name="tabuada" id="tabuada" size="10">
+            <option value="">Digite um número acima:</option>
+        </select>
     </section>
     <footer>
         <p>&copy; Gustavo Rabelo</p>
@@ -24,4 +28,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -22,3 +22,10 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#dados {
+  display: flex;
+  align-items: flex-end; 
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
