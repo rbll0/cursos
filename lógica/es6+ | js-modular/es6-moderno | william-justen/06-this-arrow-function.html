@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 - This no Arrow Function</title>
+</head>
+<body>
+    <button id="btn">Click Me!</button>
+</body>
+<script>
+    const btn = document.getElementById('btn')
+    btn.addEventListener('click', () =>  {
+        console.log(this)
+    })
+</script>
+</html>
