@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 - Const</title>
+</head>
+<body>
+</body>
+<script>
+       const secretNumber = 28;
+
+       const will = {
+         name: 'William',
+         age: 22
+       }
+
+       Object.freeze(will)
+
+       will.age = 25
+
+       console.log(will)
+</script>
+</html>
